@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" verbose="5">
+    <classes>
+	  <class name="runner.CreateNewIncidentRunner"/>
+	  <class name="runner.UpdateExistingIncidentRunner"/>
+	  <class name="runner.ResolveIncidentRunner"/>
+	  <class name="runner.DeleteIncidentRunner"/>
+	  <class name="runner.CreateNewIncidentWithoutFillingMandatoryFieldsRunner"/>
+	  <class name="runner.OrderMobileRunner"/>
+	  <class name="runner.DeleteOrderRunner"/>
+	  <class name="runner.CreateNewProposalRunner"/>
+	  <class name="runner.UpdateChangeProposalRunner"/>
+      <class name="runner.CreateNewCallerRunner"/>
+      <class name="runner.UpdateExistingCallerRunner"/>
+      <class name="runner.DeleteExistingCallerRunner"/>
+      <class name="runner.CreateArticleRunner"/>
+      <class name="runner.CreateArticleFillMandatoryFieldsRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

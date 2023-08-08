@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<parameter name="url" value="https://login.salesforce.com/ " ></parameter>
+    <parameter name="username" value="poojaashree@testleaf.com" ></parameter>
+    <parameter name="password" value="Poojaa&amp;102" ></parameter>
+    <classes>
+      <class name="salesforce.CreateNewOpportunity"/>
+	  <class name="salesforce.DeleteOpportunity"/>
+      <class name="salesforce.CreateAccounts"/>
+      <class name="salesforce.DeleteAccount"/>
+      <class name="salesforce.CreateLegalEntity"/>
+      <class name="salesforce.EditLegalEntity"/>
+      <class name="salesforce.CreateLegalEntityWithoutManatoryFields"/>
+      <class name="salesforce.DeleteLegalEntity"/>
+      <class name="salesforce.CreateNewDashboard"/>
+      <class name="salesforce.EditDashboard"/>
+      <class name="salesforce.DeleteDashboard"/>
+      <class name="salesforce.CreateIndividuals"/>
+      <class name="salesforce.EditIndividuals"/>
+      <class name="salesforce.DeleteIndividuals"/>
+      <class name="salesforce.CreateIndividualsWithoutMandatoryFields"/>
+      <class name="salesforce.CreateWorkTypeGroup"/>
+      <class name="salesforce.EditWorkTypeGroup"/>
+      <class name="salesforce.DeleteWorkTypeGroup"/>
+      <class name="salesforce.CreateWorkTypeGroupWithoutMandatoryFields"/>
+      <class name="salesforce.CreateNewCase"/>
+      <class name="salesforce.EditCase"/>
+      <class name="salesforce.DeleteCase"/>
+      <class name="salesforce.CreateCaseWithoutMandatoryFields"/>
+      <class name="salesforce.CreateTask"/>
+      <class name="salesforce.EditTask"/>
+      <class name="salesforce.DeleteTask"/>
+      <class name="salesforce.CreateTaskWithoutMandatoryFields"/>
+      <class name="salesforce.CreateNewWorkType"/>
+      <class name="salesforce.EditWorkTypeNegative"/>
+      <class name="salesforce.EditWorkType"/>
+      <class name="salesforce.VerifyTheMandatoryFieldAlertMsgForWorkType"/>
+      <class name="salesforce.Customer_Service_Options"/>
+      <class name="salesforce.AdministratorCertifications"/>
+      <class name="salesforce.ArchitectCertifications"/>
+      <class name="salesforce.Board_Exam_Schedule"/>
+      <class name="salesforce.VerifyVirtualPrivateCloudWorking"/>
+      <class name="salesforce.CreateServiceTerritories"/>
+      <class name="salesforce.EditServiceTerritories"/>
+      <class name="salesforce.CreateParentTerritory"/>
+      <class name="salesforce.DeleteServiceTerritory"/>
+      <class name="salesforce.CreateContact"/>
+      <class name="salesforce.Create_New_Refund"/>
+      <class name="salesforce.Create_New_Chart"/>
+      <class name="salesforce.CreateCampaign"/>
+      <class name="salesforce.CreateServiceResources"/>
+      <class name="salesforce.CreateNewLeads"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

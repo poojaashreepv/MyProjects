@@ -37,7 +37,7 @@ public class BaseClass {
 		options.addArguments("--remote-allow-origins=*");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
-		driver.get("https://dev94552.service-now.com");
+		driver.get("https://dev53313.service-now.com");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 	@AfterMethod
